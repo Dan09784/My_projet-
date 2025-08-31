@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'screens/alerts_page.dart';
+import 'screens/notifications_page.dart';
+import 'screens/settings_page.dart';
+import 'screens/stats_page.dart';
+import 'screens/users_page.dart';
 class HomeAdmin extends StatelessWidget {
   const HomeAdmin({super.key});
 

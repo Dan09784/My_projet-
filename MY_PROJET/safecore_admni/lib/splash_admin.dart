@@ -13,7 +13,7 @@ class _SplashAdminState extends State<SplashAdmin> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 10), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => HomeAdmin()),
@@ -28,7 +28,7 @@ class _SplashAdminState extends State<SplashAdmin> {
       body: Center(child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.local_fire_department, size: 100, color: Colors.white,),
+          Icon(Icons.local_fire_department, size: 200, color: Colors.white,),
           SizedBox(height: 20),
           Text("Fire Alert Admin",
           style: TextStyle(
